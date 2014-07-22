@@ -1,0 +1,121 @@
+body {
+	background: url('bg.jpeg') no-repeat fixed center;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar {
+	background-color: rgba(212,212,212,.2);
+	border: rgba(212,212,212,.2);
+	border-radius: 0px;
+}
+
+/*for use with logo*/
+/*.navbar-brand{
+	padding: 0 0 0 0;
+}
+.navbar-brand>img{
+	height: 70px;
+}*/
+
+.textBox {
+	background: rgba(212,212,212,0.4);
+	position: relative;
+	margin-top: 5%;
+	margin-left: 30%;
+	padding: 1% 5% 3% 5%;
+	width: 60%;
+	border: 1px solid black;
+	border-radius: 2px;
+	color: black;
+	max-height: 70%;
+	overflow: auto;
+	text-align: justify;
+}
+
+.textBox img{
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#about img {
+	border: 1px solid black;
+	width: 18em;
+	float: right;
+	margin: 0 0 1% 5%;
+}
+
+.hiddenP {
+	display: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: rgba(212,212,212,.2);
+}
+
+.footer>a {
+	color: #777777;
+}
+
+.tab-pane>p>a{
+	color: black;
+	text-decoration: underline;
+}
+.footer>a:hover,
+.tab-pane>p>a:hover{
+	color: rgb(100,100,100);
+}
+
+/*overriding bootstrap*/
+/*.btn:focus{
+	
+}*/
+.btn-primary,
+.btn-primary:focus {
+	color: black;
+	background-color:rgba(200,200,200,.9);
+	border-color:rgba(212,212,212,.9);
+}
+.btn-primary:hover{
+	color: black;
+	background-color:rgba(180,180,180,.9);
+	border-color:rgba(212,212,212,.9);
+}
+.btn-primary:active {
+	color: black;
+	background-color:rgba(70,150,70,.9);
+	border-color:rgba(212,212,212,.9);
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.dropdown-menu>li>a{
+	background-color: rgba(212,212,212,.2);
+}
+.dropdown-menu>li>a:hover{
+	background-color: rgba(21,21,21,.2);
+}
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover{
+	background-color: rgba(212,212,212,.2);
+}
+.dropdown-menu{
+	background-color: rgba(212,212,212,.8);
+}
