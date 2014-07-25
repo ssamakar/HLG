@@ -5,6 +5,7 @@ html {
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
+	background-color: rgb(240,240,240);
 }
 
 /**:not(#container) {
@@ -21,7 +22,6 @@ body {
 #main {
 	margin: 0 auto;
 	width: 80%;
-	/*height: 100%;*/
 	border: 1px solid rgb(190,190,190);
 	padding: .8%;
 	/*overflow: hidden;*/
